@@ -3,7 +3,6 @@
 입: 학생의 번호와 그 학생이 좋아하는 번호
 출: 학생의 만족도의 합
 '''
-
 import sys
 
 input = sys.stdin.readline
@@ -65,5 +64,4 @@ def calculate_satisfaction():
                 total += 10 ** (like_count - 1)
     return total
 
-# 출력
 print(calculate_satisfaction())
